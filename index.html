@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="It is a portfolio of Jaiklen Singh. Using HTML,CSS,JavaScript and Bootstarp(Mobile first View)" />
+    <meta name="description"
+        content="It is a portfolio of Jaiklen Singh. Using HTML,CSS,JavaScript and Bootstarp(Mobile first View)" />
     <meta name="author" content="Jaiklen Singh" />
     <title>Portfolio-Jaiklen</title>
     <link rel="icon" type="image/x-icon" href="assets/img/planet.ico" />
@@ -16,9 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body id="page-top ">
+<body id="page-top" >
     <!-- Navigation-->
 
     <nav class="navbar navbar-expand-lg navbar-dark cm fixed-top" id="sideNav">
@@ -42,10 +44,10 @@
         </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 " >
         <!-- About-->
         <section class="resume-section" id="about">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="zoom-in">
                 <div id="img">
 
                     <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpeg"
@@ -122,7 +124,7 @@
         <hr class="m-0" /-->
         <!-- Education-->
         <section class="resume-section" id="education">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="zoom-in" >
                 <h2 class="mb-5 cr">Education</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -157,7 +159,7 @@
         <hr class="m-0" />
         <!-- Skills-->
         <section class="resume-section" id="skills">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="zoom-in">
                 <h2 class="mb-5 cg">Skills</h2>
                 <div class="subheading mb-3">Programming Languages & Tools</div>
                 <ul class="list-inline dev-icons">
@@ -171,7 +173,7 @@
                     <li class="list-inline-item"><i class="fas fa-database"></i></li>
 
                 </ul>
-                <div class="subheading mb-3 ">Technical Courses</div>
+                <div class="subheading mb-3 " >Technical Courses</div>
                 <ul class="fa-ul mb-0">
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -227,7 +229,7 @@
         <hr class="m-0" />
         <!-- Interests-->
         <section class="resume-section" id="interests">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="zoom-in">
                 <h2 class="mb-5 cb">Interests</h2>
                 <p>Apart from being an engineering student, I enjoy most of my time to knowing about our milky way
                     galaxy. I also enjoy live cricket matches and comedy videos.
@@ -241,7 +243,7 @@
         <hr class="m-0" />
         <!-- Awards-->
         <section class="resume-section" id="awards">
-            <div class="resume-section-content">
+            <div class="resume-section-content" data-aos="zoom-in">
                 <h2 class="mb-5 cr">Awards & Certifications</h2>
                 <ul class="fa-ul mb-0">
                     <li>
@@ -288,6 +290,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800
+        });
+    </script>
 </body>
 
 </html>
